@@ -1,0 +1,16 @@
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+  }
+  
+  .content {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+ 

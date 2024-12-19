@@ -1,0 +1,30 @@
+.slide-navbar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100%;
+    width: 250px;
+    background-color: #f8f9fa;
+    transition: right 0.3s ease;
+    z-index: 1050;
+  }
+  
+  .slide-navbar.open {
+    right: 0;
+  }
+  
+  .slide-navbar .nav {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  
+  .slide-navbar .nav div {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .slide-navbar .nav div:hover {
+    background-color: #e9ecef;
+  }
+  
